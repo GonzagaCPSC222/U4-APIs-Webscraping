@@ -30,6 +30,7 @@ for tr in trs:
 # and make these your dataframe column names
 # then write the dataframe to a file
 
+# GS adding after class
 thead = soup.find("thead")
 ths = thead.find_all("th")
 header = []
